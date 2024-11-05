@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>robot</title>
+    <style>
+	body{
+	
+	}
+        #robot {
+		margin:10px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+			box-shadow:5px
+            width: 100%;
+            justify-content: center;
+        }
+
+        img {
+            width: 240px;
+            height: 220px;
+        }
+        h5{
+            font-size: 20px;
+            color: red;
+        }
+        body{
+            background-color: aqua;
+            margin-top: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="robot">
+        <div><img src="robot.img/robot1.jpg" alt="">
+            <p>MI Robot vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5>&#8377;21,999</h5>
+
+        </div>
+        
+        <div><img src="robot.img/robot2.jpg" alt="">
+            <p>ekureka forbs vac n</p>
+            <p>vacuum clenaner</p>
+            <h5> &#8377;19,090</h5>
+
+        </div>
+        
+        <div><img src="robot.img/robot3.jpg" alt="">
+            <p>releme vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5> &#8377;22,999</h5>
+
+        </div>
+        <div><img src="robot.img/robot4.jpg" alt="">
+            <p>xomimi vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5> &#8377;24,799</h5>
+
+        </div>
+        <div><img src="robot.img/robot7.jpg" alt="">
+            <p>irobot vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5>&#8377;30,000</h5>
+
+        </div>
+        <div><img src="robot.img/robot.5.jpg" alt="">
+            <p>relame vacume mop </p>
+            <p>vacuum clenaner</p>
+            <h5>&#8377;18,999</h5>
+        </div>
+        <div><img src="robot.img/robot.6.jpg" alt="">
+            <p>ilife v5x vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5>&#8377;25,000</h5>
+        </div>
+        <div><img src="robot.img/robot8.jpeg" alt="not">
+            <p>lifev55 pro vacume mop-p</p>
+            <p>vacuum clenaner</p>
+            <h5>&#8377;32.000</h5>
+
+        </div>
+    </div>
+</body>
+
+</html>
